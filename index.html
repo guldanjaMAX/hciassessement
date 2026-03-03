@@ -1,1644 +1,1624 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Conflict Readiness Assessment | High Conflict Institute</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Conflict Readiness Assessment. Discover your organization's conflict management maturity. 10 questions, under 4 minutes, instant results.">
+  <meta name="keywords" content="conflict assessment, workplace conflict, conflict management, organizational assessment, conflict training">
+  <meta name="author" content="High Conflict Institute">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hciassessement.pages.dev/">
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.highconflictinstitute.com/wp-content/uploads/2023/11/512x512.png">
-<link rel="apple-touch-icon" href="https://www.highconflictinstitute.com/wp-content/uploads/2023/11/512x512.png">
+  <!-- Open Graph -->
+  <meta property="og:title" content="How Conflict Ready Is Your Organization?">
+  <meta property="og:description" content="Free Assessment. 10 Questions. Instant Results. Discover your conflict management maturity and estimated annual impact.">
+  <meta property="og:image" content="https://www.highconflictinstitute.com/wp-content/uploads/2023/11/512x512.png">
+  <meta property="og:url" content="https://hciassessement.pages.dev/">
+  <meta property="og:type" content="website">
 
-<!-- SEO Meta -->
-<meta name="description" content="How conflict ready is your organization? Take the free 10 question Conflict Readiness Assessment from High Conflict Institute and discover where your organization is most vulnerable to high conflict situations.">
-<meta name="keywords" content="conflict readiness assessment, workplace conflict diagnostic, organizational conflict, high conflict personality, HR assessment tool, conflict management, High Conflict Institute, Megan Hunter">
-<meta name="author" content="High Conflict Institute">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://hciassessement.pages.dev/">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How Conflict Ready Is Your Organization?">
+  <meta name="twitter:description" content="Free Assessment. 10 Questions. Instant Results.">
+  <meta name="twitter:image" content="https://www.highconflictinstitute.com/wp-content/uploads/2023/11/512x512.png">
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="How Conflict Ready Is Your Organization?">
-<meta property="og:description" content="73% of organizations score below 'Conflict Ready' on our assessment. Take the free 10 question diagnostic and discover where your organization is most vulnerable.">
-<meta property="og:image" content="https://www.highconflictinstitute.com/wp-content/uploads/2022/09/HCI-Logo-1.png">
-<meta property="og:site_name" content="High Conflict Institute">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "HCI Conflict Readiness Assessment",
+    "description": "Free organizational conflict readiness assessment tool",
+    "url": "https://hciassessement.pages.dev/",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How Conflict Ready Is Your Organization?">
-<meta name="twitter:description" content="73% of organizations score below 'Conflict Ready' on our assessment. Take the free diagnostic and discover your gaps.">
+  <link rel="icon" href="https://www.highconflictinstitute.com/wp-content/uploads/2023/11/512x512.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Raleway:wght@600;700;800&display=swap');
+  <title>Conflict Readiness Assessment | High Conflict Institute</title>
 
-  :root {
-    --navy: #024682;
-    --teal-dark: #4A8EA8;
-    --teal: #7DA5C3;
-    --teal-light: #A3C4D9;
-    --sky: #C0DBE8;
-    --white: #FFFFFF;
-    --light-bg: #F5F8FA;
-    --border: #D4E1EC;
-    --text-muted: #5A7A8A;
-    --text-dark: #1A2B3C;
-    --red-accent: #E53E3E;
-    --red-soft: #FFF5F5;
-    --amber: #F6AD55;
-    --green-accent: #38A169;
-    --gold: #D4A843;
-  }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --navy: #024682;
+      --teal: #4A8EA8;
+      --teal-light: #7DA5C3;
+      --sky: #C0DBE8;
+      --light-bg: #F5F8FA;
+      --red: #E53E3E;
+      --amber: #F6AD55;
+      --green: #38A169;
+      --gold: #D4A843;
+      --text-dark: #1A202C;
+      --text-muted: #718096;
+      --border-light: #E2E8F0;
+      --white: #FFFFFF;
+    }
 
-  body {
-    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: var(--light-bg);
-    color: var(--text-dark);
-    line-height: 1.6;
-  }
+    html, body {
+      font-family: 'Roboto', sans-serif;
+      color: var(--text-dark);
+      line-height: 1.6;
+      background: var(--white);
+      scroll-behavior: smooth;
+    }
 
-  h1, h2, h3 { font-family: 'Raleway', sans-serif; }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
 
-  /* ===== TOP BAR ===== */
-  .top-bar {
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-    padding: 12px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .top-bar a {
-    color: var(--teal-dark);
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .top-bar a:hover { text-decoration: underline; }
-  .wordmark {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 2px;
-    color: var(--navy);
-    text-transform: uppercase;
-  }
-  .wordmark .tagline {
-    font-weight: 400;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    color: var(--teal-dark);
-    margin-left: 8px;
-  }
+    /* Top Bar */
+    .top-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border-light);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
 
-  /* ===== HERO ===== */
-  .hero {
-    background: linear-gradient(135deg, rgba(90,155,181,0.88) 0%, rgba(125,184,206,0.85) 30%, rgba(168,208,223,0.82) 65%, rgba(197,225,236,0.80) 100%), url('images/hero-bg.png') center/cover no-repeat;
-    padding: 80px 40px 90px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
-    border-radius: 50%;
-  }
-  .hero-pill {
-    display: inline-block;
-    background: rgba(255,255,255,0.25);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.4);
-    border-radius: 50px;
-    padding: 8px 24px;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--white);
-    letter-spacing: 0.5px;
-    margin-bottom: 28px;
-  }
-  .hero h1 {
-    font-size: 42px;
-    font-weight: 800;
-    color: var(--white);
-    line-height: 1.2;
-    margin-bottom: 16px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
-  .hero p {
-    font-size: 18px;
-    color: rgba(255,255,255,0.92);
-    max-width: 560px;
-    margin: 0 auto 36px;
-    line-height: 1.7;
-    font-weight: 300;
-  }
-  .hero-cta {
-    display: inline-block;
-    background: var(--white);
-    color: var(--navy);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 16px 40px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: all 0.3s;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  }
-  .hero-cta:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 28px rgba(0,0,0,0.2);
-  }
-  .hero-sub {
-    font-size: 13px;
-    color: rgba(255,255,255,0.75);
-    margin-top: 14px;
-  }
+    .hci-logo {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--navy);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
 
-  /* ===== TRUST STRIP ===== */
-  .trust-strip {
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 40px 16px;
-    text-align: center;
-    overflow: hidden;
-  }
-  .trust-strip > span {
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    font-weight: 500;
-    display: block;
-    margin-bottom: 12px;
-  }
-  .trust-logos-track {
-    display: flex;
-    align-items: center;
-    gap: 36px;
-    animation: scroll-logos 40s linear infinite;
-    width: max-content;
-  }
-  .trust-logos-track span {
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    font-weight: 600;
-    white-space: nowrap;
-    opacity: 0.7;
-  }
-  .trust-logos-track .dot {
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: var(--border);
-    flex-shrink: 0;
-  }
-  @keyframes scroll-logos {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-  .trust-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-    margin-top: 10px;
-    flex-wrap: wrap;
-  }
-  .trust-logos span {
-    font-size: 13px;
-    font-weight: 600;
-    color: #8AA4B8;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
+    .hci-logo:hover {
+      opacity: 0.8;
+    }
 
-  /* ===== SECTION SHARED ===== */
-  .section {
-    padding: 72px 40px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .section-label {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--teal-dark);
-    margin-bottom: 12px;
-    text-align: center;
-  }
-  .section h2 {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--navy);
-    text-align: center;
-    margin-bottom: 16px;
-    line-height: 1.3;
-  }
-  .section-sub {
-    font-size: 17px;
-    color: var(--text-muted);
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto 48px;
-    line-height: 1.7;
-  }
+    .top-bar-right a {
+      color: var(--navy);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: opacity 0.3s ease;
+    }
 
-  /* ===== THE PROBLEM ===== */
-  .problem-section {
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-  }
-  .problem-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 28px;
-    margin-bottom: 36px;
-  }
-  .problem-stat {
-    text-align: center;
-    padding: 32px 20px;
-    background: var(--light-bg);
-    border-radius: 12px;
-    border: 1px solid var(--border);
-  }
-  .problem-stat .number {
-    font-family: 'Raleway', sans-serif;
-    font-size: 42px;
-    font-weight: 800;
-    color: var(--red-accent);
-    line-height: 1;
-    margin-bottom: 8px;
-  }
-  .problem-stat .label {
-    font-size: 14px;
-    color: var(--text-muted);
-    line-height: 1.5;
-  }
-  .problem-text {
-    font-size: 16px;
-    color: var(--text-dark);
-    line-height: 1.8;
-    text-align: center;
-    max-width: 720px;
-    margin: 0 auto;
-  }
+    .top-bar-right a:hover {
+      opacity: 0.7;
+    }
 
-  /* ===== THE 5% PROBLEM (DARK) ===== */
-  .five-percent {
-    background: linear-gradient(135deg, rgba(11,26,46,0.92) 0%, rgba(19,45,74,0.90) 40%, rgba(26,58,92,0.88) 100%), url('images/five-percent-bg.png') center/cover no-repeat;
-    padding: 72px 40px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .five-percent::before {
-    content: '';
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(212,168,67,0.08) 0%, transparent 70%);
-    border-radius: 50%;
-  }
-  .five-percent .big-number {
-    font-family: 'Raleway', sans-serif;
-    font-size: 96px;
-    font-weight: 800;
-    color: var(--gold);
-    line-height: 1;
-    margin-bottom: 8px;
-    text-shadow: 0 0 40px rgba(212,168,67,0.3);
-  }
-  .five-percent .big-number span {
-    font-size: 64px;
-    vertical-align: super;
-  }
-  .five-percent h2 {
-    font-size: 28px;
-    color: var(--white);
-    margin-bottom: 20px;
-  }
-  .five-percent p {
-    font-size: 17px;
-    color: rgba(255,255,255,0.75);
-    max-width: 600px;
-    margin: 0 auto 36px;
-    line-height: 1.8;
-  }
-  .five-percent .cost-pills {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-  .cost-pill {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(212,168,67,0.3);
-    border-radius: 12px;
-    padding: 20px 28px;
-    text-align: center;
-  }
-  .cost-pill .val {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--gold);
-  }
-  .cost-pill .desc {
-    font-size: 13px;
-    color: rgba(255,255,255,0.6);
-    margin-top: 4px;
-  }
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--teal) 100%);
+      color: var(--white);
+      padding: 4rem 2rem;
+      text-align: center;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
 
-  /* ===== 8 DIMENSIONS ===== */
-  .dimensions-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .dim-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 28px;
-    transition: all 0.3s;
-    position: relative;
-    overflow: hidden;
-  }
-  .dim-card:hover {
-    border-color: var(--teal-dark);
-    box-shadow: 0 4px 16px rgba(74,142,168,0.12);
-    transform: translateY(-2px);
-  }
-  .dim-card .dim-number {
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    font-weight: 800;
-    color: rgba(74,142,168,0.1);
-  }
-  .dim-icon {
-    width: 44px;
-    height: 44px;
-    background: linear-gradient(135deg, var(--teal-dark), var(--teal));
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 14px;
-    font-size: 20px;
-  }
-  .dim-card h3 {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 6px;
-  }
-  .dim-card .weight {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--teal-dark);
-    margin-bottom: 8px;
-  }
-  .dim-card p {
-    font-size: 14px;
-    color: var(--text-muted);
-    line-height: 1.6;
-  }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
 
-  /* ===== HOW IT WORKS ===== */
-  .how-section {
-    background: var(--white);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .steps-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 36px;
-    text-align: center;
-  }
-  .step {
-    position: relative;
-  }
-  .step-num {
-    width: 56px;
-    height: 56px;
-    background: linear-gradient(135deg, var(--teal-dark), var(--teal));
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 18px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--white);
-  }
-  .step h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 8px;
-  }
-  .step p {
-    font-size: 14px;
-    color: var(--text-muted);
-    line-height: 1.6;
-    max-width: 260px;
-    margin: 0 auto;
-  }
-  .step-connector {
-    position: absolute;
-    top: 28px;
-    right: -18px;
-    font-size: 20px;
-    color: var(--teal-light);
-  }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+    }
 
-  /* ===== SCORE PREVIEW ===== */
-  .score-preview {
-    background: var(--light-bg);
-  }
-  .preview-card {
-    background: var(--white);
-    border: 1px solid #c8d8e8;
-    border-radius: 20px;
-    max-width: 820px;
-    margin: 0 auto;
-    box-shadow: 0 8px 40px rgba(2,70,130,0.10), 0 1px 3px rgba(0,0,0,0.04);
-    overflow: hidden;
-  }
-  .report-topbar {
-    background: linear-gradient(135deg, #024682 0%, #1a6b8a 100%);
-    padding: 16px 36px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-  }
-  .report-topbar .report-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 13px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  .report-topbar .report-meta {
-    font-size: 11px;
-    opacity: 0.75;
-    text-align: right;
-    line-height: 1.5;
-  }
-  .report-body {
-    padding: 40px 40px 32px;
-  }
-  .preview-header {
-    text-align: center;
-    margin-bottom: 32px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #EDF2F7;
-  }
-  .preview-header .org-name {
-    font-size: 11px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 6px;
-    font-weight: 600;
-  }
-  .preview-header h3 {
-    font-size: 24px;
-    color: var(--navy);
-    margin-bottom: 4px;
-  }
-  .preview-header .report-date {
-    font-size: 12px;
-    color: #9aadbd;
-  }
-  /* Score row: donut + summary + key metric */
-  .score-row {
-    display: grid;
-    grid-template-columns: 180px 1fr 180px;
-    gap: 28px;
-    align-items: center;
-    margin-bottom: 32px;
-  }
-  .donut-wrap {
-    position: relative;
-    width: 160px;
-    height: 160px;
-    margin: 0 auto;
-  }
-  .donut-wrap svg { width: 100%; height: 100%; transform: rotate(-90deg); }
-  .donut-wrap .donut-bg { fill: none; stroke: #EDF2F7; stroke-width: 12; }
-  .donut-wrap .donut-fill { fill: none; stroke-width: 12; stroke-linecap: round; transition: stroke-dashoffset 1s ease; }
-  .donut-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .donut-center .score-num {
-    font-family: 'Raleway', sans-serif;
-    font-size: 44px;
-    font-weight: 900;
-    color: var(--navy);
-    line-height: 1;
-  }
-  .donut-center .score-denom {
-    font-size: 13px;
-    color: var(--text-muted);
-    margin-top: 2px;
-  }
-  .score-summary {
-    text-align: left;
-  }
-  .score-summary .tier-badge {
-    display: inline-block;
-    padding: 5px 16px;
-    border-radius: 100px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px;
-  }
-  .tier-badge.exposed { background: #FFF5F5; color: #C53030; border: 1px solid #FED7D7; }
-  .tier-badge.vulnerable { background: #FFFAF0; color: #C05621; border: 1px solid #FEEBC8; }
-  .tier-badge.ready { background: #F0FFF4; color: #276749; border: 1px solid #C6F6D5; }
-  .score-summary .tier-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--navy);
-    margin-bottom: 6px;
-  }
-  .score-summary .tier-desc {
-    font-size: 14px;
-    color: var(--text-muted);
-    line-height: 1.6;
-  }
-  .key-metric {
-    background: linear-gradient(135deg, #FFF5F5 0%, #FED7D7 100%);
-    border-radius: 14px;
-    padding: 20px;
-    text-align: center;
-  }
-  .key-metric .metric-label {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #9B2C2C;
-    margin-bottom: 6px;
-  }
-  .key-metric .metric-value {
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    color: #C53030;
-    line-height: 1;
-  }
-  .key-metric .metric-sub {
-    font-size: 11px;
-    color: #9B2C2C;
-    margin-top: 4px;
-    opacity: 0.8;
-  }
-  /* Dimension grid */
-  .dim-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 24px;
-  }
-  .dim-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 14px;
-    border-radius: 10px;
-    background: #F8FAFC;
-    border: 1px solid #EDF2F7;
-  }
-  .dim-item .dim-score-ring {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    font-weight: 800;
-    color: #fff;
-    flex-shrink: 0;
-  }
-  .dim-score-ring.red { background: linear-gradient(135deg, #E53E3E, #C53030); }
-  .dim-score-ring.amber { background: linear-gradient(135deg, #ED8936, #C05621); }
-  .dim-score-ring.green { background: linear-gradient(135deg, #38A169, #276749); }
-  .dim-item .dim-info { flex: 1; min-width: 0; }
-  .dim-item .dim-name {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--navy);
-    margin-bottom: 3px;
-  }
-  .dim-item .dim-bar-wrap {
-    height: 6px;
-    background: #E2E8F0;
-    border-radius: 3px;
-    overflow: hidden;
-  }
-  .dim-item .dim-bar-inner {
-    height: 100%;
-    border-radius: 3px;
-    transition: width 0.8s ease;
-  }
-  .dim-bar-inner.red { background: var(--red-accent); }
-  .dim-bar-inner.amber { background: var(--amber); }
-  .dim-bar-inner.green { background: var(--green-accent); }
-  /* Priority flags */
-  .priority-section {
-    background: linear-gradient(135deg, #FFFAF0 0%, #FFF5F5 100%);
-    border-radius: 14px;
-    padding: 24px;
-    margin-bottom: 24px;
-    border: 1px solid #FEEBC8;
-  }
-  .priority-section .priority-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #9B2C2C;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .priority-item {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    margin-bottom: 12px;
-  }
-  .priority-item:last-child { margin-bottom: 0; }
-  .priority-num {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: #C53030;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
-  .priority-text {
-    font-size: 14px;
-    color: #4A5568;
-    line-height: 1.5;
-  }
-  .priority-text strong { color: var(--navy); }
-  /* Report footer */
-  .report-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 36px;
-    background: #F8FAFC;
-    border-top: 1px solid #EDF2F7;
-    font-size: 11px;
-    color: #9aadbd;
-  }
-  .report-footer .confidential {
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  .report-blur-overlay {
-    position: relative;
-  }
-  .report-blur-overlay::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    background: linear-gradient(transparent, rgba(255,255,255,0.95));
-    pointer-events: none;
-  }
-  .score-legend {
-    display: flex;
-    justify-content: center;
-    gap: 28px;
-    margin-top: 28px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border);
-  }
-  .legend-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-  @media(max-width: 768px) {
-    .score-row { grid-template-columns: 1fr; text-align: center; }
-    .score-summary { text-align: center; }
-    .dim-grid { grid-template-columns: 1fr; }
-    .report-body { padding: 24px 20px 20px; }
-    .report-topbar { padding: 12px 20px; }
-    .report-footer { padding: 12px 20px; flex-direction: column; gap: 4px; }
-  }
-  .legend-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-  }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: var(--white);
+      padding: 0.6rem 1.2rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
 
-  /* ===== WHO THIS IS FOR ===== */
-  .audience-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  .audience-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 28px 20px;
-    text-align: center;
-    transition: all 0.3s;
-  }
-  .audience-card:hover {
-    border-color: var(--teal-dark);
-    box-shadow: 0 4px 16px rgba(74,142,168,0.12);
-  }
-  .audience-icon {
-    font-size: 32px;
-    margin-bottom: 12px;
-  }
-  .audience-card h3 {
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 6px;
-  }
-  .audience-card p {
-    font-size: 13px;
-    color: var(--text-muted);
-    line-height: 1.5;
-  }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
 
-  /* ===== ABOUT THE CREATOR ===== */
-  .creator-section {
-    background: var(--white);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .creator-card {
-    display: flex;
-    gap: 48px;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .creator-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 16px;
-    overflow: hidden;
-    flex-shrink: 0;
-    background: linear-gradient(135deg, var(--teal-dark), var(--teal-light));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .creator-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .creator-photo .placeholder {
-    font-size: 14px;
-    color: rgba(255,255,255,0.7);
-    text-align: center;
-    padding: 20px;
-  }
-  .creator-info h3 {
-    font-size: 22px;
-    color: var(--navy);
-    margin-bottom: 4px;
-  }
-  .creator-info .title {
-    font-size: 14px;
-    color: var(--teal-dark);
-    font-weight: 500;
-    margin-bottom: 16px;
-  }
-  .creator-info p {
-    font-size: 15px;
-    color: var(--text-muted);
-    line-height: 1.7;
-    margin-bottom: 16px;
-  }
-  .creator-creds {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .cred-badge {
-    background: var(--light-bg);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 6px 12px;
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--text-muted);
-  }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.7;
+      opacity: 0.95;
+    }
 
-  /* ===== FAQ ===== */
-  .faq-list {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  .faq-item {
-    border-bottom: 1px solid var(--border);
-    padding: 24px 0;
-  }
-  .faq-item:first-child {
-    border-top: 1px solid var(--border);
-  }
-  .faq-q {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--navy);
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .faq-q::after {
-    content: '+';
-    font-size: 22px;
-    color: var(--teal-dark);
-    font-weight: 300;
-    transition: transform 0.3s;
-  }
-  .faq-item.open .faq-q::after {
-    transform: rotate(45deg);
-  }
-  .faq-a {
-    font-size: 15px;
-    color: var(--text-muted);
-    line-height: 1.7;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
-  }
-  .faq-item.open .faq-a {
-    max-height: 200px;
-    padding-top: 14px;
-  }
+    .hero-subtext {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      margin-top: 1.5rem;
+    }
 
-  /* ===== BRIDGE TO FULL DIAGNOSTIC ===== */
-  .bridge-section {
-    background: linear-gradient(135deg, #5A9BB5 0%, #7DB8CE 50%, #A8D0DF 100%);
-    padding: 72px 40px;
-    text-align: center;
-  }
-  .bridge-section .section-label {
-    color: rgba(255,255,255,0.7);
-  }
-  .bridge-section h2 {
-    color: var(--white);
-    font-size: 34px;
-    margin-bottom: 16px;
-  }
-  .bridge-section p {
-    font-size: 17px;
-    color: rgba(255,255,255,0.88);
-    max-width: 600px;
-    margin: 0 auto 36px;
-    line-height: 1.7;
-  }
-  .bridge-compare {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    max-width: 700px;
-    margin: 0 auto 40px;
-  }
-  .bridge-card {
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 12px;
-    padding: 28px;
-    text-align: left;
-  }
-  .bridge-card h3 {
-    font-size: 16px;
-    color: var(--white);
-    margin-bottom: 12px;
-  }
-  .bridge-card ul {
-    list-style: none;
-    padding: 0;
-  }
-  .bridge-card li {
-    font-size: 14px;
-    color: rgba(255,255,255,0.85);
-    padding: 4px 0;
-    padding-left: 20px;
-    position: relative;
-  }
-  .bridge-card li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: rgba(255,255,255,0.6);
-    font-size: 12px;
-  }
-  .bridge-card.premium {
-    background: rgba(255,255,255,0.95);
-    border: 2px solid var(--white);
-  }
-  .bridge-card.premium h3 {
-    color: var(--navy);
-  }
-  .bridge-card.premium li {
-    color: var(--text-dark);
-  }
-  .bridge-card.premium li::before {
-    color: var(--teal-dark);
-  }
-  .bridge-card .price {
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--teal-dark);
-    margin-top: 12px;
-    padding-top: 12px;
-    border-top: 1px solid var(--border);
-  }
+    .cta-button {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 1rem 2.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
 
-  /* ===== FINAL CTA ===== */
-  .final-cta {
-    background: var(--white);
-    padding: 72px 40px;
-    text-align: center;
-    border-top: 1px solid var(--border);
-  }
-  .final-cta h2 {
-    font-size: 34px;
-    color: var(--navy);
-    margin-bottom: 16px;
-  }
-  .final-cta p {
-    font-size: 17px;
-    color: var(--text-muted);
-    max-width: 540px;
-    margin: 0 auto 32px;
-    line-height: 1.7;
-  }
-  .cta-btn {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--teal-dark), var(--teal));
-    color: var(--white);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    padding: 18px 48px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: all 0.3s;
-    box-shadow: 0 4px 20px rgba(74,142,168,0.3);
-  }
-  .cta-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 28px rgba(74,142,168,0.4);
-  }
-  .cta-note {
-    font-size: 13px;
-    color: var(--text-muted);
-    margin-top: 14px;
-  }
+    .cta-button:hover {
+      background: #c99336;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
 
-  /* ===== FOOTER ===== */
-  .footer {
-    background: var(--light-bg);
-    border-top: 1px solid var(--border);
-    padding: 28px 40px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-  .footer a {
-    color: var(--teal-dark);
-    text-decoration: none;
-  }
+    .cta-button:active {
+      transform: translateY(0);
+    }
 
-  /* ===== RESPONSIVE ===== */
-  @media (max-width: 768px) {
-    .hero h1 { font-size: 30px; }
-    .hero { padding: 56px 24px 64px; }
-    .section { padding: 48px 24px; }
-    .problem-grid { grid-template-columns: 1fr; }
-    .dimensions-grid { grid-template-columns: 1fr; }
-    .steps-row { grid-template-columns: 1fr; gap: 24px; }
-    .step-connector { display: none; }
-    .audience-grid { grid-template-columns: 1fr 1fr; }
-    .creator-card { flex-direction: column; text-align: center; }
-    .bridge-compare { grid-template-columns: 1fr; }
-    .dim-bars { grid-template-columns: 1fr; }
-    .score-gauge { flex-direction: column; }
-    .gauge-label { text-align: center; }
-  }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
 
-  /* Scroll Animations */
-  .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
-  .fade-up.visible { opacity: 1; transform: translateY(0); }
-  .fade-up-delay-1 { transition-delay: 0.1s; }
-  .fade-up-delay-2 { transition-delay: 0.2s; }
-  .fade-up-delay-3 { transition-delay: 0.3s; }
-</style>
+    /* Credibility Strip */
+    .credibility-strip {
+      background: var(--navy);
+      color: var(--white);
+      padding: 2rem;
+      text-align: center;
+    }
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Conflict Readiness Assessment",
-  "description": "How conflict ready is your organization? Take the free 10 question Conflict Readiness Assessment from High Conflict Institute.",
-  "url": "https://hciassessement.pages.dev/",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "High Conflict Institute",
-    "url": "https://highconflictinstitute.com",
-    "foundingDate": "2008",
-    "description": "18+ years of organizational conflict research and corporate training"
-  }
-}
-</script>
+    .credibility-content {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .cred-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cred-stat {
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .cred-label {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      margin-top: 0.3rem;
+    }
+
+    /* Trusted By Section */
+    .trusted-section {
+      background: var(--white);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .trusted-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 3rem;
+      color: var(--navy);
+    }
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .logo-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80px;
+      background: var(--light-bg);
+      border-radius: 12px;
+      padding: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .logo-item:hover {
+      background: var(--sky);
+    }
+
+    .logo-item img {
+      max-height: 60px;
+      max-width: 120px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+
+    .logo-item:hover img {
+      filter: grayscale(0%);
+    }
+
+    .logo-text {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    /* Problem Section */
+    .problem-section {
+      background: var(--light-bg);
+      padding: 4rem 2rem;
+    }
+
+    .problem-section h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 3rem;
+      color: var(--navy);
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .stat-card {
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      font-family: 'Raleway', sans-serif;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-text {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Assessment Section */
+    .assessment-section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--white);
+    }
+
+    .assessment-hidden {
+      display: none;
+    }
+
+    .assessment-visible {
+      display: block;
+    }
+
+    /* Org Info Form */
+    .org-info-form {
+      background: var(--light-bg);
+      padding: 2rem;
+      border-radius: 14px;
+      margin-bottom: 2rem;
+    }
+
+    .org-info-form h3 {
+      color: var(--navy);
+      margin-bottom: 1.5rem;
+      font-size: 1.3rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text-dark);
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(74, 142, 168, 0.1);
+    }
+
+    /* Progress Bar */
+    .progress-container {
+      margin-bottom: 2rem;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background: var(--border-light);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--teal);
+      transition: width 0.3s ease;
+    }
+
+    .progress-text {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Question Container */
+    .question-container {
+      animation: fadeIn 0.4s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .question-label {
+      display: inline-block;
+      background: var(--sky);
+      color: var(--navy);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .question-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    .question-insight {
+      background: #f0f4f8;
+      border-left: 4px solid var(--teal);
+      padding: 0.75rem 1rem;
+      border-radius: 4px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .answer-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .answer-option {
+      position: relative;
+    }
+
+    .answer-option input[type="radio"] {
+      display: none;
+    }
+
+    .answer-label {
+      display: block;
+      background: var(--light-bg);
+      border: 2px solid var(--border-light);
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .answer-option input[type="radio"]:checked + .answer-label {
+      border-color: var(--teal);
+      background: rgba(74, 142, 168, 0.1);
+      color: var(--navy);
+    }
+
+    .answer-label:hover {
+      border-color: var(--teal-light);
+      background: var(--sky);
+    }
+
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+
+    .nav-button {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 1rem;
+    }
+
+    .nav-button.secondary {
+      background: var(--light-bg);
+      color: var(--navy);
+      border: 1px solid var(--border-light);
+    }
+
+    .nav-button.secondary:hover:not(:disabled) {
+      background: var(--border-light);
+    }
+
+    .nav-button.primary {
+      background: var(--teal);
+      color: var(--white);
+      flex: 1;
+    }
+
+    .nav-button.primary:hover:not(:disabled) {
+      background: var(--navy);
+    }
+
+    .nav-button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Results Section */
+    .results-section {
+      display: none;
+      animation: fadeIn 0.6s ease;
+    }
+
+    .results-section.visible {
+      display: block;
+    }
+
+    .score-display {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: var(--light-bg);
+      border-radius: 14px;
+    }
+
+    .score-gauge {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background: conic-gradient(var(--teal) 0deg, var(--teal) var(--gauge-rotation), var(--border-light) var(--gauge-rotation), var(--border-light) 360deg);
+    }
+
+    .gauge-inner {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: var(--light-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .score-percentage {
+      font-size: 2.5rem;
+      font-weight: 800;
+      font-family: 'Raleway', sans-serif;
+      color: var(--navy);
+    }
+
+    .score-label {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .tier-badge {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .tier-crisis {
+      background: rgba(229, 62, 62, 0.2);
+      color: var(--red);
+    }
+
+    .tier-reactive {
+      background: rgba(246, 173, 85, 0.2);
+      color: var(--amber);
+    }
+
+    .tier-developing {
+      background: rgba(74, 142, 168, 0.2);
+      color: var(--teal);
+    }
+
+    .tier-ready {
+      background: rgba(56, 161, 105, 0.2);
+      color: var(--green);
+    }
+
+    .tier-name {
+      font-size: 1.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .tier-tagline {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    /* Dimension Breakdown */
+    .dimension-section {
+      margin: 3rem 0;
+    }
+
+    .dimension-section h3 {
+      color: var(--navy);
+      margin-bottom: 1.5rem;
+      font-size: 1.3rem;
+    }
+
+    .dimension-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .dimension-label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .dimension-label-left {
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    .dimension-label-right {
+      color: var(--text-muted);
+    }
+
+    .dimension-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--border-light);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .dimension-fill {
+      height: 100%;
+      transition: width 0.5s ease;
+    }
+
+    .fill-1 { background: var(--red); }
+    .fill-2 { background: var(--amber); }
+    .fill-3 { background: var(--teal); }
+    .fill-4 { background: var(--green); }
+
+    /* Cost Impact */
+    .cost-impact {
+      background: var(--light-bg);
+      padding: 2rem;
+      border-radius: 14px;
+      margin: 2rem 0;
+    }
+
+    .cost-impact h3 {
+      color: var(--navy);
+      margin-bottom: 1.5rem;
+    }
+
+    .cost-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .cost-item {
+      background: var(--white);
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .cost-label {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cost-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+      color: var(--navy);
+    }
+
+    .cost-total {
+      background: var(--navy);
+      color: var(--white);
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .cost-total-label {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      margin-bottom: 0.5rem;
+    }
+
+    .cost-total-value {
+      font-size: 2rem;
+      font-weight: 800;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    /* Tier Messaging */
+    .tier-message {
+      background: var(--light-bg);
+      border-left: 4px solid var(--teal);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 2rem 0;
+      line-height: 1.7;
+    }
+
+    .tier-message.crisis {
+      border-left-color: var(--red);
+      background: rgba(229, 62, 62, 0.05);
+    }
+
+    .tier-message.reactive {
+      border-left-color: var(--amber);
+      background: rgba(246, 173, 85, 0.05);
+    }
+
+    .tier-message.developing {
+      border-left-color: var(--teal);
+      background: rgba(74, 142, 168, 0.05);
+    }
+
+    .tier-message.ready {
+      border-left-color: var(--green);
+      background: rgba(56, 161, 105, 0.05);
+    }
+
+    /* Megan CTA */
+    .megan-cta {
+      background: var(--light-bg);
+      padding: 2.5rem;
+      border-radius: 14px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    .megan-image img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .megan-content h3 {
+      color: var(--navy);
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .megan-content p {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+
+    .megan-creds {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-light);
+      padding-top: 1rem;
+      margin-top: 1rem;
+    }
+
+    .megan-cta .cta-button {
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .megan-cta {
+        grid-template-columns: 1fr;
+      }
+      .megan-image {
+        text-align: center;
+      }
+    }
+
+    /* Share Section */
+    .share-section {
+      margin: 2rem 0;
+      padding: 2rem;
+      background: var(--light-bg);
+      border-radius: 14px;
+    }
+
+    .share-section h3 {
+      color: var(--navy);
+      margin-bottom: 1.5rem;
+    }
+
+    .share-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .share-button {
+      padding: 1rem;
+      border: 1px solid var(--border-light);
+      background: var(--white);
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .share-button:hover {
+      background: var(--teal);
+      color: var(--white);
+      border-color: var(--teal);
+    }
+
+    /* Email Form */
+    .email-form {
+      display: none;
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--white);
+      border-radius: 8px;
+    }
+
+    .email-form.active {
+      display: block;
+    }
+
+    .email-form input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border-light);
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .email-form button {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--teal);
+      color: var(--white);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .email-form button:hover {
+      background: var(--navy);
+    }
+
+    /* Cross-Link Banner */
+    .cross-link-banner {
+      background: var(--navy);
+      color: var(--white);
+      padding: 2rem;
+      text-align: center;
+      margin: 3rem 0;
+      border-radius: 12px;
+    }
+
+    .cross-link-banner a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.3s ease;
+      display: inline-block;
+      margin: 0.5rem 1rem;
+    }
+
+    .cross-link-banner a:hover {
+      opacity: 0.8;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--navy);
+      color: var(--white);
+      padding: 2rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+
+    footer a:hover {
+      opacity: 0.8;
+    }
+
+    footer-links {
+      margin: 1rem 0;
+    }
+
+    footer-links a {
+      margin: 0 1rem;
+    }
+
+    /* Utility */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
 </head>
 <body>
 
-<!-- TOP BAR -->
+<!-- Top Bar -->
 <div class="top-bar">
-  <div class="wordmark">HIGH CONFLICT INSTITUTE <span class="tagline">the missing peace</span></div>
-  <a href="https://www.highconflictinstitute.com">← Back to main site</a>
-</div>
-
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-pill">Free Assessment · 10 Questions · Under 3 Minutes</div>
-  <h1>How Conflict Ready Is Your Organization?</h1>
-  <p>Most organizations don't know where they're vulnerable until a high conflict situation escalates. This free diagnostic reveals exactly where your gaps are.</p>
-  <a href="#assessment" class="hero-cta">Take the Free Assessment →</a>
-  <div class="hero-sub">No credit card required. Instant results.</div>
-</div>
-
-<!-- TRUST STRIP -->
-<div class="trust-strip">
-  <span>Trusted by organizations worldwide</span>
-  <div style="overflow:hidden;">
-    <div class="trust-logos-track">
-      <span>Microsoft</span><div class="dot"></div>
-      <span>UN World Food Programme</span><div class="dot"></div>
-      <span>Commonwealth Bank</span><div class="dot"></div>
-      <span>U.S. Department of Defense</span><div class="dot"></div>
-      <span>Pepperdine Caruso School of Law</span><div class="dot"></div>
-      <span>Boston Children's Hospital</span><div class="dot"></div>
-      <span>Naval Medical Center San Diego</span><div class="dot"></div>
-      <span>Progressive Insurance</span><div class="dot"></div>
-      <span>Inhibrx</span><div class="dot"></div>
-      <span>AFCA</span><div class="dot"></div>
-      <span>Denver Public Schools</span><div class="dot"></div>
-      <span>U.S. Department of Energy</span><div class="dot"></div>
-      <span>AAML</span><div class="dot"></div>
-      <span>AFCC</span><div class="dot"></div>
-      <span>International Ombuds Association</span><div class="dot"></div>
-      <span>Fisheries and Oceans Canada</span><div class="dot"></div>
-      <span>IATSE</span><div class="dot"></div>
-      <span>Primo Brands</span><div class="dot"></div>
-      <span>NTPA</span><div class="dot"></div>
-      <span>TheAlliance</span><div class="dot"></div>
-      <span>Centre for Peace & Conflict Studies</span><div class="dot"></div>
-      <span>COAT</span><div class="dot"></div>
-      <!-- duplicate set for seamless loop -->
-      <span>Microsoft</span><div class="dot"></div>
-      <span>UN World Food Programme</span><div class="dot"></div>
-      <span>Commonwealth Bank</span><div class="dot"></div>
-      <span>U.S. Department of Defense</span><div class="dot"></div>
-      <span>Pepperdine Caruso School of Law</span><div class="dot"></div>
-      <span>Boston Children's Hospital</span><div class="dot"></div>
-      <span>Naval Medical Center San Diego</span><div class="dot"></div>
-      <span>Progressive Insurance</span><div class="dot"></div>
-      <span>Inhibrx</span><div class="dot"></div>
-      <span>AFCA</span><div class="dot"></div>
-      <span>Denver Public Schools</span><div class="dot"></div>
-      <span>U.S. Department of Energy</span><div class="dot"></div>
-      <span>AAML</span><div class="dot"></div>
-      <span>AFCC</span><div class="dot"></div>
-      <span>International Ombuds Association</span><div class="dot"></div>
-      <span>Fisheries and Oceans Canada</span><div class="dot"></div>
-      <span>IATSE</span><div class="dot"></div>
-      <span>Primo Brands</span><div class="dot"></div>
-      <span>NTPA</span><div class="dot"></div>
-      <span>TheAlliance</span><div class="dot"></div>
-      <span>Centre for Peace & Conflict Studies</span><div class="dot"></div>
-      <span>COAT</span><div class="dot"></div>
-    </div>
+  <a href="#" class="hci-logo">HCI</a>
+  <div class="top-bar-right">
+    <a href="https://www.highconflictinstitute.com" target="_blank">Back to HCI</a>
   </div>
 </div>
 
-<div style="background:#fff;padding:32px 24px 28px;text-align:center;border-bottom:1px solid #e8eef3">
-  <div style="max-width:1000px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 44px">
-    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/microsoft.svg" alt="Microsoft" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Boston Children's Hospital</span></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">U.S. Navy</span></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Progressive Insurance</span></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Duke Energy</span></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Scottish Parliament</span></div>
-    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/afcc.png" alt="AFCC" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
-    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/aaml.svg" alt="AAML" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
-    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/ioa.png" alt="IOA" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
-    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/primo-brands.svg" alt="Primo Brands" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Arizona State University</span></div>
-    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Israeli Knesset</span></div>
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="badge">Free Assessment · 10 Questions · Under 4 Minutes</div>
+    <h1>How Conflict Ready Is Your Organization?</h1>
+    <p>Organizations spend $359 billion annually on workplace conflict. Yet 72% lack formal processes and 60% of managers have never been trained. This diagnostic reveals exactly where your gaps are.</p>
+    <button class="cta-button" onclick="document.getElementById('assessment').scrollIntoView({behavior: 'smooth'})">Start the Free Assessment</button>
+    <p class="hero-subtext">No credit card required. Instant results. Completely confidential.</p>
   </div>
-</div>
+</section>
 
-<!-- THE PROBLEM -->
-<div class="problem-section">
-  <div class="section" style="padding-bottom: 56px;">
-    <div class="section-label">The Hidden Problem</div>
-    <h2>Conflict Is Costing You More Than You Think</h2>
-    <div class="section-sub">The numbers are staggering, and most organizations have no idea where to start.</div>
-
-    <div class="problem-grid">
-      <div class="problem-stat">
-        <div class="number">$359B</div>
-        <div class="label">Lost annually to workplace<br>conflict in the U.S. alone</div>
-      </div>
-      <div class="problem-stat">
-        <div class="number">2.8 hrs</div>
-        <div class="label">Per employee per week<br>spent dealing with conflict</div>
-      </div>
-      <div class="problem-stat">
-        <div class="number">65%</div>
-        <div class="label">Of performance problems<br>stem from strained relationships</div>
-      </div>
+<!-- Credibility Strip -->
+<section class="credibility-strip">
+  <div class="credibility-content">
+    <div class="cred-item">
+      <div class="cred-stat">500K+</div>
+      <div class="cred-label">Professionals Trained</div>
     </div>
-
-    <p class="problem-text">Traditional conflict resolution training focuses on negotiation styles and communication preferences. But the most damaging conflicts in your organization are not about style differences. They are driven by something else entirely.</p>
-  </div>
-</div>
-
-<!-- THE 5% PROBLEM -->
-<div class="five-percent">
-  <div class="big-number">5<span>%</span></div>
-  <h2>The Outsized Impact of High Conflict People</h2>
-  <p>Research shows that approximately 5% of any population exhibits high conflict personality patterns. In your organization, these individuals are responsible for a disproportionate share of HR complaints, team dysfunction, and costly escalations. One high conflict person can destabilize an entire department.</p>
-  <div class="cost-pills">
-    <div class="cost-pill">
-      <div class="val">$4.4M</div>
-      <div class="desc">Average annual cost per<br>high conflict individual</div>
+    <div class="cred-item">
+      <div class="cred-stat">20+</div>
+      <div class="cred-label">Countries</div>
     </div>
-    <div class="cost-pill">
-      <div class="val">80%</div>
-      <div class="desc">Of HR complaint time<br>consumed by 5% of staff</div>
+    <div class="cred-item">
+      <div class="cred-stat">18+</div>
+      <div class="cred-label">Years of Research</div>
     </div>
-    <div class="cost-pill">
-      <div class="val">12x</div>
-      <div class="desc">More likely to generate<br>formal grievances</div>
+    <div class="cred-item">
+      <div class="cred-stat">4</div>
+      <div class="cred-label">Published Books</div>
     </div>
   </div>
-</div>
+</section>
 
-<!-- 8 DIMENSIONS -->
-<div class="section">
-  <div class="section-label">What You'll Discover</div>
-  <h2>Your Organization Scored Across 8 Dimensions</h2>
-  <div class="section-sub">Each dimension maps directly to a specific area where your organization can measurably improve its conflict readiness.</div>
-
-  <div class="dimensions-grid">
-    <div class="dim-card">
-      <div class="dim-number">01</div>
-      <div class="dim-icon">🔍</div>
-      <h3>HCP Awareness</h3>
-      <div class="weight">15 points · Highest Impact</div>
-      <p>Can your leaders recognize high conflict personality patterns before situations escalate? This is the single biggest predictor of organizational conflict health.</p>
+<!-- Trusted By Logos -->
+<section class="trusted-section">
+  <h2>Trusted by Leading Organizations Worldwide</h2>
+  <div class="logo-grid">
+    <div class="logo-item">
+      <div class="logo-text">Microsoft</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">02</div>
-      <div class="dim-icon">🛡️</div>
-      <h3>Leadership Response Capability</h3>
-      <div class="weight">15 points · Highest Impact</div>
-      <p>Do your managers have specific, practical tools for responding to high conflict situations? Or are they improvising every time?</p>
+    <div class="logo-item">
+      <div class="logo-text">Boston Children's Hospital</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">03</div>
-      <div class="dim-icon">📋</div>
-      <h3>Policy & Process Readiness</h3>
-      <div class="weight">15 points</div>
-      <p>Are your conflict resolution policies designed for high conflict situations, or do they accidentally reward escalation?</p>
+    <div class="logo-item">
+      <div class="logo-text">Progressive</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">04</div>
-      <div class="dim-icon">📝</div>
-      <h3>Communication Protocols</h3>
-      <div class="weight">10 points</div>
-      <p>Does your organization have frameworks like BIFF for managing high stakes written communication?</p>
+    <div class="logo-item">
+      <div class="logo-text">Duke Energy</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">05</div>
-      <div class="dim-icon">🎓</div>
-      <h3>Training & Development</h3>
-      <div class="weight">10 points</div>
-      <p>Have your managers received specific training on high conflict patterns, or just generic conflict resolution?</p>
+    <div class="logo-item">
+      <div class="logo-text">Scottish Parliament</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">06</div>
-      <div class="dim-icon">🌡️</div>
-      <h3>Early Warning Systems</h3>
-      <div class="weight">10 points</div>
-      <p>Can your organization detect emerging conflict patterns before they escalate into formal complaints or departures?</p>
+    <div class="logo-item">
+      <div class="logo-text">AFCC</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">07</div>
-      <div class="dim-icon">🤝</div>
-      <h3>Team Resilience</h3>
-      <div class="weight">15 points</div>
-      <p>When a high conflict situation erupts, do your teams know how to contain the impact and maintain productivity?</p>
+    <div class="logo-item">
+      <div class="logo-text">AAML</div>
     </div>
-    <div class="dim-card">
-      <div class="dim-number">08</div>
-      <div class="dim-icon">📊</div>
-      <h3>Conflict Cost Awareness</h3>
-      <div class="weight">10 points</div>
-      <p>Does your leadership team understand the true financial impact of unresolved conflict on the bottom line?</p>
+    <div class="logo-item">
+      <div class="logo-text">IOA</div>
+    </div>
+    <div class="logo-item">
+      <div class="logo-text">Commonwealth Bank</div>
+    </div>
+    <div class="logo-item">
+      <div class="logo-text">Primo Brands</div>
+    </div>
+    <div class="logo-item">
+      <div class="logo-text">Arizona State University</div>
+    </div>
+    <div class="logo-item">
+      <div class="logo-text">U.S. Navy</div>
     </div>
   </div>
-</div>
+</section>
 
-<!-- HOW IT WORKS -->
-<div class="how-section">
-  <div class="section">
-    <div class="section-label">Simple Process</div>
-    <h2>Three Minutes to Clarity</h2>
-    <div class="section-sub">No consultants. No long surveys. Just honest answers and immediate insight.</div>
-
-    <div class="steps-row">
-      <div class="step">
-        <div class="step-num">1</div>
-        <h3>Answer 10 Questions</h3>
-        <p>Rate your organization on each statement using a simple 1 to 5 scale. Takes less than 3 minutes.</p>
-        <span class="step-connector">→</span>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <h3>Get Your Score Instantly</h3>
-        <p>See your overall Conflict Readiness Score and which tier your organization falls into.</p>
-        <span class="step-connector">→</span>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <h3>See Where You're Exposed</h3>
-        <p>Your personalized breakdown reveals exactly which dimensions need the most attention.</p>
-      </div>
+<!-- Problem Section -->
+<section class="problem-section">
+  <h2>The Scale of the Problem</h2>
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-number">$359B</div>
+      <div class="stat-text">Lost annually to workplace conflict across the U.S. economy</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">2.8 hrs</div>
+      <div class="stat-text">Per employee per week spent managing conflict instead of productive work</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">60%</div>
+      <div class="stat-text">Of managers have never received formal conflict management training</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">72%</div>
+      <div class="stat-text">Of mid-size organizations lack documented conflict resolution policies</div>
     </div>
   </div>
-</div>
+</section>
 
-<!-- SCORE PREVIEW -->
-<div class="score-preview">
-  <div class="section">
-    <div class="section-label">Sample Results</div>
-    <h2>Here's What Your Report Looks Like</h2>
-    <div class="section-sub">Instant, visual, and specific enough to forward to your CEO.</div>
-
-    <div class="preview-card">
-      <!-- Report top bar -->
-      <div class="report-topbar">
-        <div class="report-logo">High Conflict Institute</div>
-        <div class="report-meta">Conflict Readiness Assessment<br>Generated March 2026</div>
+<!-- Assessment Section -->
+<section class="assessment-section" id="assessment">
+  <div id="orgInfoContainer">
+    <div class="org-info-form">
+      <h3>Tell Us About Your Organization</h3>
+      <div class="form-group">
+        <label for="orgName">Organization Name</label>
+        <input type="text" id="orgName" placeholder="Your company name">
       </div>
+      <div class="form-group">
+        <label for="empCount">Number of Employees</label>
+        <input type="number" id="empCount" value="500" min="1">
+      </div>
+      <div class="form-group">
+        <label for="industry">Industry</label>
+        <select id="industry">
+          <option value="">Select your industry</option>
+          <option value="Healthcare">Healthcare</option>
+          <option value="Financial Services">Financial Services</option>
+          <option value="Technology">Technology</option>
+          <option value="Professional Services">Professional Services</option>
+          <option value="Manufacturing">Manufacturing</option>
+          <option value="Government/Public Sector">Government/Public Sector</option>
+          <option value="Education">Education</option>
+          <option value="Retail/Hospitality">Retail/Hospitality</option>
+          <option value="Nonprofit">Nonprofit</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="role">Your Role</label>
+        <select id="role">
+          <option value="">Select your role</option>
+          <option value="CHRO/VP HR">CHRO/VP HR</option>
+          <option value="HR Director">HR Director</option>
+          <option value="HR Manager">HR Manager</option>
+          <option value="COO/CEO">COO/CEO</option>
+          <option value="People Operations">People Operations</option>
+          <option value="Organizational Development">Organizational Development</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <button class="cta-button" style="width: 100%; margin-top: 1rem;" onclick="startAssessment()">Start Assessment</button>
+    </div>
+  </div>
 
-      <div class="report-body">
-        <div class="preview-header">
-          <div class="org-name">Prepared for: Westfield Regional Health System</div>
-          <h3>Organizational Conflict Readiness Report</h3>
-          <div class="report-date">850 Employees · Healthcare · Benchmarked Against 340+ Organizations</div>
-        </div>
+  <div id="questionsContainer" class="assessment-hidden">
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+      </div>
+      <div class="progress-text"><span id="currentQuestion">1</span> of 10</div>
+    </div>
 
-        <!-- Score row: donut + summary + key metric -->
-        <div class="score-row">
-          <div class="donut-wrap">
-            <svg viewBox="0 0 160 160">
-              <circle class="donut-bg" cx="80" cy="80" r="66" />
-              <circle class="donut-fill" cx="80" cy="80" r="66" stroke="#E53E3E"
-                stroke-dasharray="414.7" stroke-dashoffset="133" />
-            </svg>
-            <div class="donut-center">
-              <div class="score-num">34</div>
-              <div class="score-denom">of 50</div>
-            </div>
-          </div>
+    <div class="question-container" id="questionContainer"></div>
 
-          <div class="score-summary">
-            <div class="tier-badge vulnerable">Conflict Vulnerable</div>
-            <div class="tier-title">Significant Gaps Detected</div>
-            <div class="tier-desc">Your organization scores in the bottom 32% of healthcare organizations assessed. Leadership response capability and HCP awareness are critical areas requiring immediate attention.</div>
-          </div>
+    <div class="button-group">
+      <button class="nav-button secondary" id="backBtn" onclick="prevQuestion()" style="display: none;">Back</button>
+      <button class="nav-button primary" id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+  </div>
 
-          <div class="key-metric">
-            <div class="metric-label">Est. Annual Impact</div>
-            <div class="metric-value">$2.1M</div>
-            <div class="metric-sub">in conflict related costs</div>
-          </div>
-        </div>
-
-        <!-- 8 Dimension scores -->
-        <div class="dim-grid">
-          <div class="dim-item">
-            <div class="dim-score-ring red">35</div>
-            <div class="dim-info">
-              <div class="dim-name">HCP Awareness</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner red" style="width:35%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring red">28</div>
-            <div class="dim-info">
-              <div class="dim-name">Leadership Response</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner red" style="width:28%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring amber">55</div>
-            <div class="dim-info">
-              <div class="dim-name">Policy &amp; Process</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner amber" style="width:55%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring amber">62</div>
-            <div class="dim-info">
-              <div class="dim-name">Communication Protocols</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner amber" style="width:62%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring red">30</div>
-            <div class="dim-info">
-              <div class="dim-name">Training Investment</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner red" style="width:30%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring amber">48</div>
-            <div class="dim-info">
-              <div class="dim-name">Early Warning Systems</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner amber" style="width:48%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring green">72</div>
-            <div class="dim-info">
-              <div class="dim-name">Team Resilience</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner green" style="width:72%"></div></div>
-            </div>
-          </div>
-          <div class="dim-item">
-            <div class="dim-score-ring red">25</div>
-            <div class="dim-info">
-              <div class="dim-name">Conflict Cost Awareness</div>
-              <div class="dim-bar-wrap"><div class="dim-bar-inner red" style="width:25%"></div></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Priority flags -->
-        <div class="priority-section">
-          <div class="priority-title">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C53030" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-            Priority Action Areas
-          </div>
-          <div class="priority-item">
-            <div class="priority-num">1</div>
-            <div class="priority-text"><strong>Leadership Response Capability (28%)</strong> Your managers lack structured tools for de-escalating high conflict situations. This is the single highest leverage improvement area for your organization.</div>
-          </div>
-          <div class="priority-item">
-            <div class="priority-num">2</div>
-            <div class="priority-text"><strong>Conflict Cost Awareness (25%)</strong> Leadership does not currently quantify the financial impact of unresolved conflict. Without this data, securing budget for intervention programs will remain difficult.</div>
-          </div>
-          <div class="priority-item">
-            <div class="priority-num">3</div>
-            <div class="priority-text"><strong>Training Investment (30%)</strong> No formal high conflict specific training exists. General conflict resolution training does not address the unique dynamics of high conflict personalities.</div>
-          </div>
+  <div class="results-section" id="resultsSection">
+    <div class="score-display">
+      <div class="score-gauge" style="--gauge-rotation: 0deg;">
+        <div class="gauge-inner">
+          <div class="score-percentage" id="scorePercent">0%</div>
+          <div class="score-label">Score</div>
         </div>
       </div>
+      <div class="tier-badge" id="tierBadge"></div>
+      <div class="tier-name" id="tierName"></div>
+      <div class="tier-tagline" id="tierTagline"></div>
+    </div>
 
-      <!-- Report footer -->
-      <div class="report-footer">
-        <div class="confidential">Confidential</div>
-        <div>highconflictinstitute.com · Page 1 of 3</div>
-      </div>
+    <div class="dimension-section">
+      <h3>Your Dimension Scores</h3>
+      <div id="dimensionBreakdown"></div>
     </div>
-  </div>
-</div>
 
-<!-- WHO THIS IS FOR -->
-<div class="section">
-  <div class="section-label">Is This For You?</div>
-  <h2>Built for People Who Own the Problem</h2>
-  <div class="section-sub">If conflict resolution lands on your desk, this assessment was designed for you.</div>
-
-  <div class="audience-grid">
-    <div class="audience-card">
-      <div class="audience-icon">👤</div>
-      <h3>HR Directors & CHROs</h3>
-      <p>You see the patterns. Now get the data to drive organizational change.</p>
-    </div>
-    <div class="audience-card">
-      <div class="audience-icon">🏢</div>
-      <h3>COOs & Operations Leaders</h3>
-      <p>Conflict is an operational drag. This quantifies where and how much.</p>
-    </div>
-    <div class="audience-card">
-      <div class="audience-icon">👥</div>
-      <h3>Department Heads</h3>
-      <p>Managing a team with recurring conflict? See exactly where the system is breaking down.</p>
-    </div>
-    <div class="audience-card">
-      <div class="audience-icon">⚖️</div>
-      <h3>General Counsel</h3>
-      <p>Reduce litigation risk by identifying exposure points before they become legal matters.</p>
-    </div>
-  </div>
-</div>
-
-<!-- ABOUT THE CREATOR -->
-<div class="creator-section">
-  <div class="section">
-    <div class="creator-card">
-      <div class="creator-photo" id="creator-img">
-        <img src="https://www.highconflictinstitute.com/wp-content/uploads/2023/10/Megan-Hunter-MBA.png" alt="Megan Hunter, MBA, CEO and Co-Founder of High Conflict Institute" loading="lazy">
-      </div>
-      <div class="creator-info">
-        <h3>Megan Hunter, MBA</h3>
-        <div class="title">CEO & Co-Founder, High Conflict Institute</div>
-        <p>Megan has spent 18+ years helping organizations worldwide understand and manage high conflict situations. She has trained teams at Microsoft, the World Food Programme, the Commonwealth Bank of Australia, and the U.S. Federal Court system. She is the author of multiple books on high conflict communication and the co-developer of the BIFF Response method used by thousands of professionals globally.</p>
-        <div class="creator-creds">
-          <span class="cred-badge">18+ Years Research</span>
-          <span class="cred-badge">Author · 5 Books</span>
-          <span class="cred-badge">Trained 50,000+ Professionals</span>
-          <span class="cred-badge">Co-Creator of BIFF Response</span>
+    <div class="cost-impact">
+      <h3>Estimated Annual Impact</h3>
+      <div class="cost-items">
+        <div class="cost-item">
+          <div class="cost-label">Lost Productivity</div>
+          <div class="cost-value" id="costProductivity">$0</div>
+        </div>
+        <div class="cost-item">
+          <div class="cost-label">Conflict Turnover</div>
+          <div class="cost-value" id="costTurnover">$0</div>
+        </div>
+        <div class="cost-item">
+          <div class="cost-label">Absenteeism</div>
+          <div class="cost-value" id="costAbsenteeism">$0</div>
+        </div>
+        <div class="cost-total">
+          <div class="cost-total-label">Total Annual Impact</div>
+          <div class="cost-total-value" id="costTotal">$0</div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- FAQ -->
-<div class="section">
-  <div class="section-label">Common Questions</div>
-  <h2>What You Need to Know</h2>
-  <div class="section-sub" style="margin-bottom: 36px;"></div>
+    <div class="tier-message" id="tierMessage"></div>
 
-  <div class="faq-list">
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How long does the assessment take?</div>
-      <div class="faq-a">Under 3 minutes. There are 10 questions, each asking you to rate a statement on a 1 to 5 scale. Most people complete it in about 2 minutes.</div>
+    <div class="megan-cta">
+      <div class="megan-image">
+        <img src="https://www.highconflictinstitute.com/wp-content/uploads/2023/10/Megan-Hunter-MBA.png" alt="Megan Hunter, CEO of High Conflict Institute">
+      </div>
+      <div class="megan-content">
+        <h3>Schedule a Confidential Conversation</h3>
+        <p id="meganDescription">Let's talk about what this assessment reveals and how to build conflict readiness in your organization.</p>
+        <a href="https://www.highconflictinstitute.com/contact" target="_blank" class="cta-button" style="display: block; text-align: center;">Book Your Session</a>
+        <div class="megan-creds">
+          <strong>Megan Hunter</strong><br>
+          MBA · CEO, High Conflict Institute · International Keynote Speaker · Author of 4 Books · 18+ Years Experience
+        </div>
+      </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is it really free?</div>
-      <div class="faq-a">Yes, completely free. No credit card, no trial period, no hidden fees. You will receive your score immediately after completing the assessment. We will also email you a PDF summary of your results.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Who sees my results?</div>
-      <div class="faq-a">Only you. Your results are private and sent directly to the email address you provide. We do not share individual assessment data with anyone. Aggregate, anonymized data may be used in published research.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What happens after I get my score?</div>
-      <div class="faq-a">You will receive your score card immediately, along with an email with your full results PDF. Over the following two weeks, we will send you additional context about your score, including tips for the dimensions where you scored lowest. If you want to go deeper, you can schedule a complimentary Conflict Diagnostic with Megan Hunter.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What's the difference between this and the full diagnostic?</div>
-      <div class="faq-a">This free assessment gives you a high level snapshot across 10 questions. The full Conflict Readiness Diagnostic is a comprehensive 40 question assessment across all 8 dimensions, administered to multiple stakeholders, and includes a detailed report with benchmarks and specific recommendations. The diagnostic results are presented by Megan in a personal 30 minute debrief.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can I use this for my whole team?</div>
-      <div class="faq-a">The free version is designed for a single HR leader or senior manager. If you want to assess your broader leadership team or multiple departments, the full Conflict Readiness Diagnostic is designed exactly for that, with stakeholder comparison and alignment analysis.</div>
-    </div>
-  </div>
-</div>
 
-<!-- BRIDGE TO FULL DIAGNOSTIC -->
-<div class="bridge-section">
-  <div class="section-label">Go Deeper</div>
-  <h2>Ready for the Full Picture?</h2>
-  <p>The free assessment gives you a snapshot. The full diagnostic gives you a treatment plan, presented personally by Megan Hunter.</p>
-
-  <div class="bridge-compare">
-    <div class="bridge-card">
-      <h3>Free Assessment</h3>
-      <ul>
-        <li>10 questions</li>
-        <li>Overall readiness score</li>
-        <li>One page summary PDF</li>
-        <li>Self administered</li>
-        <li>Instant results</li>
-      </ul>
+    <div class="share-section">
+      <h3>Share Your Results</h3>
+      <div class="share-buttons">
+        <button class="share-button" onclick="toggleEmailForm()">Email My Results</button>
+        <button class="share-button" onclick="downloadPDF()">Download PDF Summary</button>
+      </div>
+      <div class="email-form" id="emailForm">
+        <input type="email" id="resultEmail" placeholder="Your email address">
+        <button onclick="sendResults()">Send Results</button>
+      </div>
     </div>
-    <div class="bridge-card premium">
-      <h3>Full Conflict Diagnostic</h3>
-      <ul>
-        <li>40 questions across 8 dimensions</li>
-        <li>Multi-stakeholder analysis</li>
-        <li>5 to 8 page detailed report</li>
-        <li>Industry benchmarks included</li>
-        <li>30 min debrief with Megan Hunter</li>
-        <li>Specific recommendations by dimension</li>
-      </ul>
-      <div class="price">Complimentary for qualified organizations</div>
+
+    <div class="cross-link-banner">
+      <p>
+        <a href="https://www.highconflictinstitute.com/conflict-cost-calculator" target="_blank">See what conflict is actually costing you → Calculate Your Cost</a>
+      </p>
+      <p>
+        <a href="https://www.highconflictinstitute.com" target="_blank">Learn about our signature keynote → The 5% Problem</a>
+      </p>
     </div>
   </div>
+</section>
 
-  <a href="#assessment" class="hero-cta" style="background: var(--white); color: var(--navy);">Start with the Free Assessment →</a>
-</div>
-
-<!-- FINAL CTA -->
-<div class="final-cta" id="assessment">
-  <h2>Three Minutes Could Change How You Handle Conflict Forever</h2>
-  <p>Join thousands of HR leaders and organizational executives who have discovered their Conflict Readiness Score.</p>
-  <a href="https://www.highconflictinstitute.com/assessment" class="cta-btn">Get Your Free Conflict Readiness Score →</a>
-  <div class="cta-note">10 questions · Under 3 minutes · Instant results · 100% free</div>
-</div>
-
-<!-- CROSS-LINK BANNER -->
-<div style="max-width:800px;margin:0 auto 0;padding:40px 24px;">
-  <div style="background:#fff;border-radius:14px;border:1.5px solid #D4E1EC;padding:32px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#7DA5C3;margin-bottom:8px;">Next Step</div>
-    <h3 style="font-size:22px;font-weight:800;color:#024682;margin-bottom:8px;font-family:'Raleway',sans-serif;">See What Conflict Is Actually Costing You</h3>
-    <p style="font-size:15px;color:#5A7A8A;max-width:520px;margin:0 auto 20px;line-height:1.6;">After you take the assessment, use our Conflict Cost Calculator to see the real dollar impact on your organization, including lost productivity, turnover, and litigation costs.</p>
-    <a href="https://hcicalculator.pages.dev/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#024682 0%,#013A6B 100%);color:#fff;text-decoration:none;padding:12px 28px;border-radius:8px;font-size:14px;font-weight:600;transition:all 0.3s;">Calculate Your Conflict Cost →</a>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 High Conflict Institute. All rights reserved.</p>
+  <div style="margin: 1rem 0;">
+    <a href="https://www.highconflictinstitute.com" target="_blank">Main Site</a> |
+    <a href="https://www.highconflictinstitute.com/privacy" target="_blank">Privacy Policy</a>
   </div>
-</div>
-
-<!-- FOOTER -->
-<div class="footer">
-  <p>© 2026 High Conflict Institute. All rights reserved. | <a href="https://www.highconflictinstitute.com">highconflictinstitute.com</a> | <a href="https://www.highconflictinstitute.com/privacy">Privacy Policy</a></p>
-  <p style="margin-top: 6px;">Based on 18+ years of research into high conflict personality patterns in organizations.</p>
-</div>
+  <p><em>Based on 18+ years of research into high conflict personality patterns</em></p>
+</footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.problem-stat, .dimension-card, .bridge-card, .section-label, h2').forEach(function(el) {
-    el.classList.add('fade-up');
+// Assessment Data
+const questions = [
+  {
+    dimension: "High Conflict Individual Recognition",
+    question: "Our managers can identify when someone is exhibiting high conflict behaviors, such as preoccupation with blaming others, all or nothing thinking, emotional dysregulation, or extreme actions.",
+    insight: "High conflict personalities have specific patterns. Most organizations confuse 'difficult person' with 'high conflict personality' and apply generic HR tools instead of specialized frameworks."
+  },
+  {
+    dimension: "Leadership Capability",
+    question: "Our senior leaders have been trained in de-escalation and difficult conversation frameworks such as BIFF communication, interest based negotiation, or similar structured approaches.",
+    insight: "Leaders model conflict behavior. Without training, escalation becomes inevitable. Organizations where leadership is trained show 95% effectiveness in navigating conflicts positively."
+  },
+  {
+    dimension: "Formal Conflict Resolution Process",
+    question: "We have a clearly documented and communicated conflict resolution procedure that all employees understand, from peer resolution through HR escalation to formal action.",
+    insight: "72% of mid-size organizations lack formal conflict policies. Clear, documented processes reduce escalation, legal exposure, and turnover."
+  },
+  {
+    dimension: "Manager Training",
+    question: "The majority of our managers have received formal conflict management or difficult conversation training in the past 24 months.",
+    insight: "Only 40% of managers have conflict training, yet they spend 20 to 40% of their time on conflict. Of those trained, 95% report it helps them navigate conflict productively."
+  },
+  {
+    dimension: "Communication Culture",
+    question: "Employees feel psychologically safe raising concerns or disagreements with their managers without fear of retaliation or retribution.",
+    insight: "Organizations with strong psychological safety surface conflicts early. Without it, problems fester and escalate."
+  },
+  {
+    dimension: "Escalation Recognition",
+    question: "We can quickly recognize when a conflict has escalated beyond peer resolution and know when to bring in HR, professional mediation, or external resources.",
+    insight: "Conflict escalates predictably. Different stages require different interventions. Mismatching the intervention prolongs conflict."
+  },
+  {
+    dimension: "Employee Support",
+    question: "When significant conflicts occur, we have resources in place to support affected employees (EAP, team coaching, etc.) and help teams rebuild trust afterward.",
+    insight: "Conflict related stress costs organizations $3,600 per employee annually in absenteeism. Post conflict repair and team healing accelerate recovery."
+  },
+  {
+    dimension: "High Conflict Personality Protocols",
+    question: "We have specific strategies or protocols for managing individuals who exhibit persistently high conflict behavior, beyond standard HR discipline, such as coaching, structured communication, or role modifications.",
+    insight: "Most organizations apply generic HR discipline to high conflict personalities. This often escalates the situation. Specialized frameworks address the underlying patterns instead."
+  },
+  {
+    dimension: "Policy & Documentation",
+    question: "Our conduct and civility policies clearly define expectations for professional behavior and consequences are consistently applied and documented.",
+    insight: "Vague policies are unenforceable. Clear expectations and consistent enforcement reduce legal liability and set behavioral norms."
+  },
+  {
+    dimension: "Strategic Commitment",
+    question: "Our organization views conflict management as a strategic capability and has allocated resources, training, and leadership attention to building that capability over the past 12 months.",
+    insight: "Conflict management is often reactive, not strategic. Organizations that invest in capability building show lower turnover and stronger leadership."
+  }
+];
+
+const tiers = {
+  crisis: {
+    range: [0, 25],
+    name: "Crisis Vulnerable",
+    tagline: "At Risk. Action Required.",
+    color: "crisis",
+    badge: "tier-crisis",
+    message: "Your organization faces acute risk. Without formal processes, trained leadership, or protocols for high conflict individuals, conflicts escalate rapidly, draining resources, increasing turnover, and creating legal exposure."
+  },
+  reactive: {
+    range: [26, 50],
+    name: "Reactive",
+    tagline: "Responding, Not Preventing.",
+    color: "reactive",
+    badge: "tier-reactive",
+    message: "You have foundations but are managing conflicts after they escalate. The gap is proactive systems, consistent training, and specialized protocols for high conflict personalities."
+  },
+  developing: {
+    range: [51, 75],
+    name: "Developing",
+    tagline: "Building Real Capability.",
+    color: "developing",
+    badge: "tier-developing",
+    message: "You are ahead of 50% of organizations. The gap is managing high conflict personalities with specialized frameworks. That is where leverage emerges."
+  },
+  ready: {
+    range: [76, 100],
+    name: "Conflict Ready",
+    tagline: "Top Quartile. Best in Class.",
+    color: "ready",
+    badge: "tier-ready",
+    message: "Congratulations. You have built something rare. The question is how do you leverage this as a competitive advantage?"
+  }
+};
+
+// State
+let currentQuestion = 0;
+let answers = {};
+let orgInfo = {};
+
+// Functions
+function startAssessment() {
+  const orgName = document.getElementById('orgName').value.trim();
+  const empCount = parseInt(document.getElementById('empCount').value);
+  const industry = document.getElementById('industry').value;
+  const role = document.getElementById('role').value;
+
+  if (!orgName || !industry || !role) {
+    alert('Please fill in all fields');
+    return;
+  }
+
+  orgInfo = { orgName, empCount, industry, role };
+  document.getElementById('orgInfoContainer').style.display = 'none';
+  document.getElementById('questionsContainer').classList.remove('assessment-hidden');
+  document.getElementById('questionsContainer').classList.add('assessment-visible');
+
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = questions[currentQuestion];
+  const html = `
+    <label class="question-label">Question ${currentQuestion + 1}</label>
+    <div class="question-text">${q.question}</div>
+    <div class="question-insight">${q.insight}</div>
+    <div class="answer-options">
+      <div class="answer-option">
+        <input type="radio" id="ans1" name="answer" value="1" onchange="selectAnswer(1)">
+        <label for="ans1" class="answer-label">Strongly<br>Disagree</label>
+      </div>
+      <div class="answer-option">
+        <input type="radio" id="ans2" name="answer" value="2" onchange="selectAnswer(2)">
+        <label for="ans2" class="answer-label">Disagree</label>
+      </div>
+      <div class="answer-option">
+        <input type="radio" id="ans3" name="answer" value="3" onchange="selectAnswer(3)">
+        <label for="ans3" class="answer-label">Agree</label>
+      </div>
+      <div class="answer-option">
+        <input type="radio" id="ans4" name="answer" value="4" onchange="selectAnswer(4)">
+        <label for="ans4" class="answer-label">Strongly<br>Agree</label>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('questionContainer').innerHTML = html;
+  document.getElementById('currentQuestion').textContent = currentQuestion + 1;
+  document.getElementById('progressFill').style.width = ((currentQuestion + 1) / 10 * 100) + '%';
+
+  // Restore previous answer if exists
+  if (answers[currentQuestion]) {
+    document.getElementById('ans' + answers[currentQuestion]).checked = true;
+  }
+
+  // Update button states
+  document.getElementById('nextBtn').disabled = !answers[currentQuestion];
+  document.getElementById('backBtn').style.display = currentQuestion > 0 ? 'block' : 'none';
+}
+
+function selectAnswer(value) {
+  answers[currentQuestion] = value;
+  document.getElementById('nextBtn').disabled = false;
+}
+
+function nextQuestion() {
+  if (currentQuestion < questions.length - 1) {
+    currentQuestion++;
+    renderQuestion();
+  } else {
+    showResults();
+  }
+}
+
+function prevQuestion() {
+  if (currentQuestion > 0) {
+    currentQuestion--;
+    renderQuestion();
+  }
+}
+
+function showResults() {
+  // Calculate score
+  const totalPoints = Object.values(answers).reduce((a, b) => a + b, 0);
+  const score = ((totalPoints - 10) / 30) * 100;
+  const scorePercent = Math.round(score);
+
+  // Determine tier
+  let tier;
+  if (scorePercent <= 25) tier = tiers.crisis;
+  else if (scorePercent <= 50) tier = tiers.reactive;
+  else if (scorePercent <= 75) tier = tiers.developing;
+  else tier = tiers.ready;
+
+  // Update gauge rotation
+  const gaugeRotation = (scorePercent / 100) * 360;
+  document.querySelector('.score-gauge').style.setProperty('--gauge-rotation', gaugeRotation + 'deg');
+
+  // Update score display
+  document.getElementById('scorePercent').textContent = scorePercent + '%';
+  document.getElementById('tierBadge').className = 'tier-badge ' + tier.badge;
+  document.getElementById('tierBadge').textContent = tier.name;
+  document.getElementById('tierName').textContent = tier.name;
+  document.getElementById('tierTagline').textContent = tier.tagline;
+  document.getElementById('tierMessage').className = 'tier-message ' + tier.color;
+  document.getElementById('tierMessage').textContent = tier.message;
+
+  // Render dimension breakdown
+  renderDimensions();
+
+  // Calculate costs
+  calculateCosts();
+
+  // Update Megan description based on tier
+  const meganDescriptions = {
+    crisis: "Your organization faces acute risk. Let's discuss immediate next steps to build conflict readiness.",
+    reactive: "We can show you where to focus to move from reactive to proactive conflict management.",
+    developing: "Let's talk about specialized frameworks for high conflict personalities to unlock your next level.",
+    ready: "Let's explore how to leverage your conflict readiness as a strategic competitive advantage."
+  };
+  document.getElementById('meganDescription').textContent = meganDescriptions[tier.color];
+
+  // Hide questions, show results
+  document.getElementById('questionsContainer').classList.add('assessment-hidden');
+  document.getElementById('questionsContainer').classList.remove('assessment-visible');
+  document.getElementById('resultsSection').classList.add('visible');
+}
+
+function renderDimensions() {
+  let html = '';
+  questions.forEach((q, idx) => {
+    const answer = answers[idx] || 0;
+    const percent = (answer / 4) * 100;
+    let fillClass = 'fill-' + answer;
+    if (answer === 0) fillClass = 'fill-1';
+
+    html += `
+      <div class="dimension-item">
+        <div class="dimension-label">
+          <span class="dimension-label-left">${q.dimension}</span>
+          <span class="dimension-label-right">${answer}/4</span>
+        </div>
+        <div class="dimension-bar">
+          <div class="dimension-fill ${fillClass}" style="width: ${percent}%"></div>
+        </div>
+      </div>
+    `;
   });
-  var observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+  document.getElementById('dimensionBreakdown').innerHTML = html;
+}
+
+function calculateCosts() {
+  const empCount = orgInfo.empCount || 500;
+  const avgSalary = 75000;
+
+  // Lost Productivity: employees * avg salary * 0.07 (2.8hrs/40hrs)
+  const costProd = empCount * avgSalary * 0.07;
+
+  // Conflict Turnover: employees * 0.18 turnover * 0.50 conflict-related * salary * 0.33 replacement
+  const costTurn = empCount * 0.18 * 0.50 * avgSalary * 0.33;
+
+  // Absenteeism: employees * $3,600
+  const costAbsent = empCount * 3600;
+
+  const total = costProd + costTurn + costAbsent;
+
+  document.getElementById('costProductivity').textContent = '$' + formatNumber(Math.round(costProd));
+  document.getElementById('costTurnover').textContent = '$' + formatNumber(Math.round(costTurn));
+  document.getElementById('costAbsenteeism').textContent = '$' + formatNumber(Math.round(costAbsent));
+  document.getElementById('costTotal').textContent = '$' + formatNumber(Math.round(total));
+}
+
+function formatNumber(num) {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1) + 'M';
+  } else if (num >= 1000) {
+    return (num / 1000).toFixed(0) + 'K';
+  }
+  return num.toString();
+}
+
+function toggleEmailForm() {
+  document.getElementById('emailForm').classList.toggle('active');
+}
+
+function sendResults() {
+  const email = document.getElementById('resultEmail').value;
+  if (email) {
+    alert('Thank you! Your results have been sent to ' + email);
+    document.getElementById('emailForm').classList.remove('active');
+    document.getElementById('resultEmail').value = '';
+  }
+}
+
+function downloadPDF() {
+  const scorePercent = document.getElementById('scorePercent').textContent;
+  const tierName = document.getElementById('tierName').textContent;
+  const costTotal = document.getElementById('costTotal').textContent;
+
+  let content = `HIGH CONFLICT INSTITUTE
+CONFLICT READINESS ASSESSMENT RESULTS
+
+Organization: ${orgInfo.orgName}
+Assessment Date: ${new Date().toLocaleDateString()}
+
+OVERALL SCORE: ${scorePercent}
+TIER: ${tierName}
+
+ESTIMATED ANNUAL IMPACT: ${costTotal}
+
+DIMENSIONS:
+`;
+
+  questions.forEach((q, idx) => {
+    const answer = answers[idx] || 0;
+    content += `${idx + 1}. ${q.dimension}: ${answer}/4\n`;
+  });
+
+  content += `
+
+Next Steps:
+Schedule a confidential conversation with Megan Hunter to discuss your results and develop a roadmap for building conflict readiness.
+
+Visit: https://www.highconflictinstitute.com/contact`;
+
+  const element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(content));
+  element.setAttribute('download', 'HCI-Assessment-Results.txt');
+  element.style.display = 'none';
+  document.body.appendChild(element);
+  element.click();
+  document.body.removeChild(element);
+}
+
+// Scroll animations
+const observerOptions = {
+  threshold: 0.1,
+  rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.stat-card, .logo-item').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = 'all 0.5s ease';
+  observer.observe(el);
+});
+
+// Initialize
+window.addEventListener('load', () => {
+  renderQuestion();
 });
 </script>
 
