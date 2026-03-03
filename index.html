@@ -14,6 +14,7 @@
 <meta name="keywords" content="conflict readiness assessment, workplace conflict diagnostic, organizational conflict, high conflict personality, HR assessment tool, conflict management, High Conflict Institute, Megan Hunter">
 <meta name="author" content="High Conflict Institute">
 <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://hciassessement.pages.dev/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -1079,7 +1080,38 @@
     .score-gauge { flex-direction: column; }
     .gauge-label { text-align: center; }
   }
+
+  /* Scroll Animations */
+  .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+  .fade-up-delay-1 { transition-delay: 0.1s; }
+  .fade-up-delay-2 { transition-delay: 0.2s; }
+  .fade-up-delay-3 { transition-delay: 0.3s; }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Conflict Readiness Assessment",
+  "description": "How conflict ready is your organization? Take the free 10 question Conflict Readiness Assessment from High Conflict Institute.",
+  "url": "https://hciassessement.pages.dev/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "High Conflict Institute",
+    "url": "https://highconflictinstitute.com",
+    "foundingDate": "2008",
+    "description": "18+ years of organizational conflict research and corporate training"
+  }
+}
+</script>
 </head>
 <body>
 
@@ -1149,6 +1181,23 @@
       <span>Centre for Peace & Conflict Studies</span><div class="dot"></div>
       <span>COAT</span><div class="dot"></div>
     </div>
+  </div>
+</div>
+
+<div style="background:#fff;padding:32px 24px 28px;text-align:center;border-bottom:1px solid #e8eef3">
+  <div style="max-width:1000px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 44px">
+    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/microsoft.svg" alt="Microsoft" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Boston Children's Hospital</span></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">U.S. Navy</span></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Progressive Insurance</span></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Duke Energy</span></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Scottish Parliament</span></div>
+    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/afcc.png" alt="AFCC" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
+    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/aaml.svg" alt="AAML" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
+    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/ioa.png" alt="IOA" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
+    <div style="display:flex;align-items:center;height:40px"><img src="images/logos/primo-brands.svg" alt="Primo Brands" style="max-height:36px;max-width:130px;object-fit:contain;filter:grayscale(100%) opacity(0.55);transition:filter 0.3s" onmouseover="this.style.filter='grayscale(0%) opacity(1)'" onmouseout="this.style.filter='grayscale(100%) opacity(0.55)'"></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Arizona State University</span></div>
+    <div style="display:flex;align-items:center;height:40px"><span style="font-family:'Raleway',sans-serif;font-size:13px;font-weight:700;color:#a0b0c0;letter-spacing:0.5px">Israeli Knesset</span></div>
   </div>
 </div>
 
@@ -1575,6 +1624,23 @@
   <p>© 2026 High Conflict Institute. All rights reserved. | <a href="https://www.highconflictinstitute.com">highconflictinstitute.com</a> | <a href="https://www.highconflictinstitute.com/privacy">Privacy Policy</a></p>
   <p style="margin-top: 6px;">Based on 18+ years of research into high conflict personality patterns in organizations.</p>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.problem-stat, .dimension-card, .bridge-card, .section-label, h2').forEach(function(el) {
+    el.classList.add('fade-up');
+  });
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+</script>
 
 </body>
 </html>
